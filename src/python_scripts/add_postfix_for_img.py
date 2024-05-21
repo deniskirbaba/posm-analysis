@@ -23,7 +23,7 @@ def add_postfix_to_files(folder_path, postfix):
             print(f"Renamed {filename} to {new_filename}")
 
 # Example usage
-folder_path = "C:/Work/Learning Lab 2024/datasets/295411_posm/dataset 2024-04-10 16_46_46/datasets/dataset 2024-04-16 12_47_22/img"  # Replace with the path to your folder
-postfix = "_1"  # Replace with your desired postfix
+folder_path = "C:/Users/deniskirbaba/Desktop/add_data_2/img"
+postfix = "_4"
 
 add_postfix_to_files(folder_path, postfix)

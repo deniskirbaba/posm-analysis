@@ -4,8 +4,8 @@ import yaml
 import numpy as np
 
 # Step 1: Load Dataset
-dataset_dir = "C:/Users/deniskirbaba/Desktop/yolo8_full"
-output_dir = "C:/Users/deniskirbaba/Desktop/others_class_dataset"
+dataset_dir = "C:/Work/Learning Lab 2024/datasets_2/yolo_full"
+output_dir = "C:/Work/Learning Lab 2024/datasets_2/dataset_for_classification"
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
