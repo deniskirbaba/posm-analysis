@@ -8,13 +8,14 @@ The architecture of system available in the [folder](system_architecture/).
 
 Project requirements stored in the [requirements.txt](/src/requirements.txt).
 
-The final presentation of project available in the [PPTX](/final_presentation.pdf) it's include:
+The final presentation of project available in the [PDF](/final_presentation.pdf) it's include:
  - Problem statement
  - Proposed solution
  - System interface
  - System architecture
  - Software stack
  - Metrics for ML models (instance segmentation model, classification model)
+ - Overall accuracy of system prediction
  - Project roadmap
 ---
 ## Brief description of system operation
