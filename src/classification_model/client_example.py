@@ -22,5 +22,5 @@ def send_image_path_to_server(image_path):
 
 if __name__ == '__main__':
     # Replace this with the actual path to your image
-    image_path = 'C:/Users/deniskirbaba/Desktop/pure_others_/943895_6739_4_1.jpg'
+    image_path = 'image_path'
     send_image_path_to_server(image_path)

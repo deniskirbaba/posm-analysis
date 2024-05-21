@@ -7,7 +7,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model
-model = load_model('classification/model/model.h5')
+model = load_model('src/classification_model/model_weights/model.h5')
 
 # Class names (update this with your actual class names)
 class_names = ['beeline', 'mts', 'tele2']

@@ -4,7 +4,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Flatten, Dropout
 
 
-dataset_dir = 'C:/Users/deniskirbaba/Desktop/ml2_classif_dataset'
+dataset_dir = 'C:/Work/Learning Lab 2024/datasets/classification_dataset_train'
 
 # data augmentation and rescaling
 datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2)
@@ -28,7 +28,7 @@ validation_generator = datagen.flow_from_directory(
 # If you have a separate test set
 test_datagen = ImageDataGenerator(rescale=1./255)
 test_generator = test_datagen.flow_from_directory(
-    'C:/Users/deniskirbaba/Desktop/ml2_cls_test',
+    'C:/Work/Learning Lab 2024/datasets/classification_dataset_test',
     target_size=(224, 224),
     batch_size=32,
     class_mode='categorical'
@@ -58,4 +58,4 @@ history = model.fit(
 test_loss, test_acc = model.evaluate(test_generator)
 print(f"Test accuracy: {test_acc}")
 
-model.save('model_weights/model.h5')
+model.save('src/classification_model/model_weights/model.h5')
